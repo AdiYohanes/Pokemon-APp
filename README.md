@@ -1,93 +1,92 @@
-# Pokemon-APp
 # 🌟 PokéSearch Pro
 
 <p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Pokebola-pokeball-png-0.png" alt="PokéSearch Pro Logo" width="200"/>
-  <br>
-  <em>Gotta Search 'Em All!</em>
+ <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Pokebola-pokeball-png-0.png" alt="PokéSearch Pro Logo" width="200"/>
+ <br>
+ <em>Jelajahi Dunia Pokémon!</em>
 </p>
 
-## 🎮 Welcome to PokéSearch Pro!
-Ever wondered what makes your favorite Pokémon special? PokéSearch Pro is your ultimate companion in the vast world of Pokémon! Whether you're a seasoned trainer or just starting your journey, our app provides everything you need to know about any Pokémon at your fingertips.
+## 🎮 Selamat Datang di PokéSearch Pro!
+Penasaran dengan kemampuan Pokémon favoritmu? PokéSearch Pro adalah teman terbaikmu dalam menjelajahi dunia Pokémon! Baik kamu seorang trainer berpengalaman atau baru memulai petualangan, aplikasi ini menyediakan semua informasi yang kamu butuhkan tentang Pokémon dalam genggaman.
 
-## ✨ Features That Make Us Special
+## ✨ Fitur Unggulan
 
-### 🔍 Smart Search
-- Search by name or Pokédex number
-- Instant results with beautiful animations
-- "Who's that Pokémon?" random generator
+### 🔍 Pencarian Pintar
+- Cari berdasarkan nama atau nomor Pokédex
+- Hasil instan dengan animasi menarik
+- Generator "Siapakah Pokémon ini?" secara acak
 
-### 📊 Detailed Stats
-- Visual stat bars with cool animations
-- HP, Attack, Defense, and more!
-- Type advantages and classifications
+### 📊 Statistik Lengkap
+- Visualisasi status dengan animasi keren
+- HP, Serangan, Pertahanan, dan lainnya!
+- Keunggulan tipe dan klasifikasi
 
-### 🎨 Visual Delights
-- Multiple sprite views (Front, Back, Shiny)
-- Type-themed color coding
-- Smooth animations and transitions
+### 🎨 Tampilan Menarik
+- Berbagai tampilan sprite (Depan, Belakang, Shiny)
+- Kode warna berdasarkan tipe
+- Animasi dan transisi yang halus
 
-### 🎯 Quick Access
-- Popular Pokémon shortcuts
-- Recently viewed history
-- Keyboard navigation support
+### 🎯 Akses Cepat
+- Pintasan Pokémon populer
+- Riwayat terakhir dilihat
+- Dukungan navigasi keyboard
 
-## 🚀 Live in Action
-Check out our live demo [here](your-demo-link)!
+## 🚀 Demo Langsung
+Coba demo aplikasi [di sini](https://pokemon-a-pp.vercel.app/)!
 
 ## 🌈 Preview
 <p align="center">
-  <img src="preview.gif" alt="PokéSearch Pro Demo" width="600"/>
+ <img src="preview.gif" alt="PokéSearch Pro Demo" width="600"/>
 </p>
 
-## 🛠️ Built With Love Using
-- HTML5 for structure
-- CSS3 for stunning visuals
-- Vanilla JavaScript for interactivity
-- PokéAPI for reliable data
+## 🛠️ Teknologi yang Digunakan
+- HTML5 untuk struktur
+- CSS3 untuk visual
+- Vanilla JavaScript untuk interaktivitas
+- PokéAPI untuk data
 
-## 🎯 Quick Start
-1. Visit our website
-2. Type a Pokémon name or number
-3. Hit search or press Enter
-4. Explore and enjoy!
+## 🎯 Cara Menggunakan
+1. Kunjungi website kami
+2. Ketik nama atau nomor Pokémon
+3. Tekan tombol cari atau Enter
+4. Jelajahi dan nikmati!
 
-## 💡 Pro Tips
-- Use the random button for surprises!
-- Try searching for your starter Pokémon
-- Check out shiny variants
-- Explore popular Pokémon shortcuts
+## 💡 Tips Penggunaan
+- Gunakan tombol acak untuk kejutan!
+- Coba cari Pokémon starter favoritmu
+- Lihat variasi shiny
+- Jelajahi pintasan Pokémon populer
 
-## 🌟 What Trainers Say
-> "Finally, a Pokédex that fits in my browser!" - *Ash K.*
+## 🌟 Kata Para Trainer
+> "Akhirnya, Pokédex yang bisa dibuka di browser!" - *Ash K.*
 > 
-> "The animations are smoother than a Snorlax's belly!" - *Misty W.*
+> "Animasinya lebih halus dari perut Snorlax!" - *Misty W.*
 
-## 🎨 Color Guide
-| Type | Color |
+## 🎨 Panduan Warna Tipe
+| Tipe | Warna |
 |------|--------|
-| 🔥 Fire | #F08030 |
-| 💧 Water | #6890F0 |
-| ⚡ Electric | #F8D030 |
-*and many more!*
+| 🔥 Api | #F08030 |
+| 💧 Air | #6890F0 |
+| ⚡ Listrik | #F8D030 |
+*dan banyak lagi!*
 
-## 🤝 Contributing
-Found a bug? Got an awesome idea? Let's make PokéSearch Pro even better together!
+## 🤝 Kontribusi
+Menemukan bug? Punya ide keren? Mari buat PokéSearch Pro lebih baik bersama!
 
 ## ⚡ Fun Fact
-Did you know? Our app can display information about all Pokémon from Generation 1 to 8! That's over 890 Pokémon!
+Tahukah kamu? Aplikasi ini bisa menampilkan informasi semua Pokémon dari Generasi 1 sampai 8! Itu lebih dari 890 Pokémon!
 
-## 📝 License
-Released under the MIT License. Feel free to use it as your Pokédex!
+## 📝 Lisensi
+Dirilis di bawah Lisensi MIT. Bebas digunakan sebagai Pokédex pribadimu!
 
-## 🌟 Credits
-- Data powered by [PokéAPI](https://pokeapi.co/)
-- Icons and inspiration from the Pokémon Company
-- Built with ❤️ by [Your Name]
+## 🌟 Kredit
+- Data dari [PokéAPI](https://pokeapi.co/)
+- Ikon dan inspirasi dari Pokémon Company
+- Dibuat dengan ❤️ oleh [Nama Kamu]
 
 ---
 <p align="center">
-  Made with 🖤 for Pokémon Trainers Everywhere
-  <br>
-  <em>Remember: Every Trainer has a different journey!</em>
+ Dibuat dengan 🖤 untuk Para Trainer Pokémon
+ <br>
+ <em>Ingat: Setiap Trainer memiliki petualangan yang berbeda!</em>
 </p>
