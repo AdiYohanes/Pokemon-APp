@@ -2,7 +2,7 @@
 # 🌟 PokéSearch Pro
 
 <p align="center">
-  <img src="[your-app-logo.png](https://upload.wikimedia.org/wikipedia/commons/5/51/Pokebola-pokeball-png-0.png)" alt="PokéSearch Pro Logo" width="200"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Pokebola-pokeball-png-0.png" alt="PokéSearch Pro Logo" width="200"/>
   <br>
   <em>Gotta Search 'Em All!</em>
 </p>
