@@ -36,7 +36,8 @@ Coba demo aplikasi [di sini](https://pokemon-a-pp.vercel.app/)!
 
 ## 🌈 Preview
 <p align="center">
- <img src="preview.gif" alt="PokéSearch Pro Demo" width="600"/>
+ ![image](https://github.com/user-attachments/assets/5c857e39-495e-4528-bc06-f99dfb7c0c8b)
+
 </p>
 
 ## 🛠️ Teknologi yang Digunakan
