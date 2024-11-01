@@ -34,12 +34,6 @@ Penasaran dengan kemampuan Pokémon favoritmu? PokéSearch Pro adalah teman terb
 ## 🚀 Demo Langsung
 Coba demo aplikasi [di sini](https://pokemon-a-pp.vercel.app/)!
 
-## 🌈 Preview
-<p align="center">
- ![image](https://github.com/user-attachments/assets/5c857e39-495e-4528-bc06-f99dfb7c0c8b)
-
-</p>
-
 ## 🛠️ Teknologi yang Digunakan
 - HTML5 untuk struktur
 - CSS3 untuk visual
