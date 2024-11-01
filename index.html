@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokéSearch Pro - Advanced Pokémon Search Engine</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="background-shapes">
+        <div class="pokeball"></div>
+        <div class="pokeball"></div>
+        <div class="pokeball"></div>
+    </div>
+
+    <div class="container">
+        <header class="app-header">
+            <h1>
+                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poke-ball.png" alt="Pokéball" class="header-pokeball">
+                PokéSearch Pro
+            </h1>
+            <p class="subtitle">Discover Everything About Your Favorite Pokémon!</p>
+        </header>
+
+        <div class="search-section">
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Enter Pokémon name or ID" required>
+                <button id="search-button">
+                    <i class="fas fa-search"></i>
+                    Search
+                </button>
+            </div>
+            <div class="random-pokemon">
+                <button id="random-button">
+                    <i class="fas fa-random"></i>
+                    Random Pokémon
+                </button>
+            </div>
+        </div>
+
+        <div class="popular-pokemon">
+            <h3>Popular Searches</h3>
+            <div class="popular-list">
+                <!-- Will be populated by JavaScript -->
+            </div>
+        </div>
+        
+        <div class="pokemon-info" id="pokemon-info">
+            <div class="card-container">
+                <div class="pokemon-card">
+                    <div class="card-header">
+                        <h2 id="pokemon-name"></h2>
+                        <span id="pokemon-id"></span>
+                    </div>
+                    
+                    <div class="sprite-container">
+                        <!-- Main sprite will be here -->
+                    </div>
+
+                    <div class="sprite-variants">
+                        <button class="variant-btn" data-variant="front">Front</button>
+                        <button class="variant-btn" data-variant="back">Back</button>
+                        <button class="variant-btn" data-variant="shiny">Shiny</button>
+                    </div>
+
+                    <div id="types" class="types-container"></div>
+                    
+                    <div class="basic-info">
+                        <div class="info-item">
+                            <i class="fas fa-weight"></i>
+                            <span>Weight: <span id="weight"></span></span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-ruler-vertical"></i>
+                            <span>Height: <span id="height"></span></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="stats-card">
+                    <h3>Base Stats</h3>
+                    <div class="stats-grid">
+                        <div class="stat-group">
+                            <div class="stat-row">
+                                <span class="stat-label">
+                                    <i class="fas fa-heart"></i>
+                                    HP
+                                </span>
+                                <span id="hp"></span>
+                                <div class="stat-bar">
+                                    <div class="stat-fill hp" data-stat="hp"></div>
+                                </div>
+                            </div>
+                            <div class="stat-row">
+                                <span class="stat-label">
+                                    <i class="fas fa-fist-raised"></i>
+                                    Attack
+                                </span>
+                                <span id="attack"></span>
+                                <div class="stat-bar">
+                                    <div class="stat-fill attack" data-stat="attack"></div>
+                                </div>
+                            </div>
+                            <div class="stat-row">
+                                <span class="stat-label">
+                                    <i class="fas fa-shield-alt"></i>
+                                    Defense
+                                </span>
+                                <span id="defense"></span>
+                                <div class="stat-bar">
+                                    <div class="stat-fill defense" data-stat="defense"></div>
+                                </div>
+                            </div>
+                            <div class="stat-row">
+                                <span class="stat-label">
+                                    <i class="fas fa-bolt"></i>
+                                    Sp. Attack
+                                </span>
+                                <span id="special-attack"></span>
+                                <div class="stat-bar">
+                                    <div class="stat-fill special-attack" data-stat="special-attack"></div>
+                                </div>
+                            </div>
+                            <div class="stat-row">
+                                <span class="stat-label">
+                                    <i class="fas fa-shield-virus"></i>
+                                    Sp. Defense
+                                </span>
+                                <span id="special-defense"></span>
+                                <div class="stat-bar">
+                                    <div class="stat-fill special-defense" data-stat="special-defense"></div>
+                                </div>
+                            </div>
+                            <div class="stat-row">
+                                <span class="stat-label">
+                                    <i class="fas fa-wind"></i>
+                                    Speed
+                                </span>
+                                <span id="speed"></span>
+                                <div class="stat-bar">
+                                    <div class="stat-fill speed" data-stat="speed"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="additional-info">
+                    <h3>Additional Information</h3>
+                    <div class="info-grid">
+                        <div class="info-card abilities">
+                            <h4><i class="fas fa-star"></i> Abilities</h4>
+                            <div id="abilities-list"></div>
+                        </div>
+                        <div class="info-card moves">
+                            <h4><i class="fas fa-fist-raised"></i> Notable Moves</h4>
+                            <div id="moves-list"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="loading-spinner" class="loading-spinner">
+            <div class="pokeball-spinner"></div>
+            <p>Searching for Pokémon...</p>
+        </div>
+
+        <div class="error-container" id="error-container">
+            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/54.png" alt="Psyduck Error">
+            <p>Oops! Pokémon not found</p>
+            <p class="error-subtitle">Try searching with a different name or ID</p>
+        </div>
+    </div>
+
+    <footer class="app-footer">
+        <p>Created with <i class="fas fa-heart"></i> by <a href="#" target="_blank">Adi Yohanes</a></p>
+        <p>Powered by <a href="https://pokeapi.co/" target="_blank">PokéAPI</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
